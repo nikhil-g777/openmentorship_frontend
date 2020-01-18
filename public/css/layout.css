@@ -232,6 +232,57 @@ ul#nav li.current a { color: #F06000; }
 
 
 /* ------------------------------------------------------------------ */
+/* d. Information Section
+/* ------------------------------------------------------------------ */
+
+#information {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+   text-align: center;
+}
+
+#information a, #information a:visited  { color: #11ABB0; }
+#information a:hover, #information a:focus { color: #313131; }
+
+#information h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#information h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#information h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#information .header-col { padding-top: 9px; }
+#information .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#information .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#information .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#information .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+/* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
@@ -398,6 +449,30 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 60%;  }
+}
+
+
+/* ------------------------------------------------------------------ */
+/* e. Slide Section
+/* ------------------------------------------------------------------ */
+
+.slide {
+   background: rgb(136, 134, 128) no-repeat center center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   background-attachment: fixed;
+
+   position: relative;
+   min-height: 300px;
+   width: 100%;
+   overflow: hidden;
+}
+
+.slide_image {
+   position: relative;
+   margin: 20px;
+   width: 100%;
+   overflow: hidden;
 }
 
 /* ------------------------------------------------------------------ */

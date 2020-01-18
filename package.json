@@ -1,6 +1,6 @@
 {
-  "name": "react-landing-page",
-  "homepage": "http://patraspan.github.io/react-landing-page",
+  "name": "openmentorship_frontend",
+  "homepage": "http://www.openmentorship.com",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:5000",
